@@ -4,17 +4,17 @@ Do *not* fork this repository.
 
 # Assignment
 
-You have been given access to files containing data describing all of the airline flights in the U.S. from 1987-2008.
+You have been given access to files containing data describing all of the airline flights in the U.S. from 2000-2008.
 
 A "route" is an ordered pair of cities from source to destination (e.g., SFO to BOS).  Note that since the pair is ordered, "SFO-BOS" is not the same thing as "BOS-SFO".
 
-Design and implement (with proper unit tests) a Hadoop program in Java to answer the following question:
+Design and implement (with proper unit tests) a Hadoop program in Java to compute the following:
 
 For each route, calculate the average number of minutes late that the flights were over the data files provided and output the 100 routes with the largest average arrival delay.
 
 ## Equipment
 
-You have been given access to an Amazon EMR cluster and an S3 bucket containing data to be analyzed. Your Hadoop job should run on the cluster, reading the data files from the S3 bucket and writing the output file there.
+The data files to use as input are in the S3 bucket at <s3://unity-public-data/flight_data/>. Install Hadoop on your computer and run your program using Hadoop in Local (Standalone) Mode.
 
 ## Additional notes
 
@@ -28,6 +28,6 @@ You have been given access to an Amazon EMR cluster and an S3 bucket containing 
 
 5. If you need multiple MapReduce jobs, your program should take care of sequencing them properly.
 
-## Bonus
+## Bonus Problem
 
 Once you have written the Hadoop program, write a program in Spark to compute the same answer.
