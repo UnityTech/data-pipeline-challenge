@@ -28,6 +28,8 @@ The data files to use as input are in the S3 bucket at <s3://unity-public-data/f
 
 5. If you need multiple MapReduce jobs, your program should take care of sequencing them properly.
 
+6. We recommend writing your Hadoop program in Java, but you may also use another language (Python, R, etc.) using Hadoop Streaming. However, higher level abstractions such as Hive and Pig are not allowed.
+
 ## Bonus Problem
 
 Once you have written the Hadoop program, write a program in Spark to compute the same answer.
