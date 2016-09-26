@@ -14,7 +14,7 @@ For each route, calculate the average number of minutes late that the flights we
 
 ## Equipment
 
-The data files to use as input are in the S3 bucket at <s3://unity-public-data/flight_data/>. Install Hadoop on your computer and run your program using Hadoop in Local (Standalone) Mode.
+The data files to use as input are in Amazon S3 at <s3://unity-public-data/flight_data/input.zip>. Install Hadoop on your computer and run your program using Hadoop in Local (Standalone) Mode.
 
 ## Additional notes
 
