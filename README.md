@@ -22,13 +22,11 @@ The data files to use as input are in Amazon S3 at <https://s3-us-west-2.amazona
 
 2. Origin, Dest, and ArrDelay (arrival delay) are the columns you should use to answer the question.
 
-3. Consider integer overflow when handling large amounts of input.
+3. Your program should use appropriate data structures to make reasonably efficient use of memory and CPU.
 
-4. Your program should use appropriate data structures to make reasonably efficient use of memory and CPU.
+4. If you need multiple MapReduce jobs, your program should take care of sequencing them properly.
 
-5. If you need multiple MapReduce jobs, your program should take care of sequencing them properly.
-
-6. We recommend writing your Hadoop program in Java, but you may also use another language (Python, R, etc.) using Hadoop Streaming. However, higher level abstractions such as Hive and Pig are not allowed.
+5. We recommend writing your Hadoop program in Java, but you may also use another language (Python, R, etc.) using Hadoop Streaming. However, higher level abstractions such as Hive and Pig are not allowed.
 
 ## Bonus Problem
 
