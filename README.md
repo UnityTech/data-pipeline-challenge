@@ -12,6 +12,8 @@ Design and implement (with proper unit tests) a Hadoop program in Java to comput
 
 For each route, calculate the average number of minutes late that the flights were over the data files provided and output the 100 routes with the largest average arrival delay.
 
+*IMPORTANT: The input files provided are small samples to allow you to test your program.  Please design your program to work correctly and efficiently on data at a much larger scale (e.g. billions of rows).  We are looking for you to demonstrate not just that you can use Hadoop, but that you know how to handle very large data sets using it.*
+
 ## Equipment
 
 The data files to use as input are in Amazon S3 at <https://s3-us-west-2.amazonaws.com/unity-public-data/flight_data/input.zip>. Install Hadoop on your computer and run your program using Hadoop in Local (Standalone) Mode.
